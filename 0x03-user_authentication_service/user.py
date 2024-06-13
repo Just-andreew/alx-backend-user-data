@@ -3,7 +3,7 @@
 Creating a User class for authentication
 """
 
-from sqlalchemy.ext.declarative import declarative base
+from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import Column, Integer, String
 
 Base = declarative_base()
